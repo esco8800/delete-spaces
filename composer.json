@@ -1,0 +1,15 @@
+{
+    "name": "esco8800/delete-spaces",
+    "description": "Задача по удалению лишних пробелов",
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "classes\\": "classes"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
