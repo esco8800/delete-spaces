@@ -4,5 +4,7 @@ use classes\StringHelper;
 
 require 'vendor/autoload.php';
 
-$generator = new StringHelper();
-$generator->deleteSpaces("_On__my___home_wor__ld_____");
+echo "Введите строку: \n";
+$line = trim(fgets(STDIN));
+echo (new StringHelper())->deleteSpaces($line) . "\n";
+
